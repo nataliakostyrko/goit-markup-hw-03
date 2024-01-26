@@ -37,6 +37,11 @@ img {
 .section-link {
   padding-top: 120px;
   padding-bottom: 120px;
+
+}
+.section-link-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .container {
   max-width: 1158px;
@@ -118,10 +123,10 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
   max-width: 496px;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 48px ;
 
 }
 .button-section {
@@ -198,7 +203,7 @@ img {
 }
 
 .team-link {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .images-person {
@@ -241,7 +246,7 @@ img {
   
 }
 .portfolio-list-item {
-  width: calc((100%-48px)/3);
+  width: calc((100% - 48px)/3);
 }
 
 .images-portfolio {
@@ -293,6 +298,6 @@ img {
 .team-link {
   background-color: #ffffff;
 }
-.section-link {
+.section-link-team {
   background-color: #f4f4fd;
 }
